@@ -21,7 +21,7 @@ parent:
 components:
   - name: image-build
     image:
-      imageName: /java-springboot-java-springboot-image
+      imageName: java-springboot-java-springboot-image
       dockerfile:
         uri: docker/Dockerfile
         buildContext: .
