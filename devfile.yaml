@@ -15,13 +15,13 @@ metadata:
   provider: Red Hat
   supportUrl: https://github.com/devfile-samples/devfile-support#support-information
 parent:
-  id: java-springboot
+  id: mvaldron
   registryUrl: 'https://quay.io'
-  version: 1.2.0
+  version: latest
 components:
   - name: image-build
     image:
-      imageName: mvaldron/java-springboot-java-springboot-image:latest
+      imageName: /java-springboot-java-springboot-image
       dockerfile:
         uri: docker/Dockerfile
         buildContext: .
