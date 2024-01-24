@@ -16,12 +16,12 @@ metadata:
   supportUrl: https://github.com/devfile-samples/devfile-support#support-information
 parent:
   id: java-springboot
-  registryUrl: 'https://registry.devfile.io'
+  registryUrl: 'https://quay.io'
   version: 1.2.0
 components:
   - name: image-build
     image:
-      imageName: java-springboot-image:latest
+      imageName: mvaldron/java-springboot-java-springboot-image:latest
       dockerfile:
         uri: docker/Dockerfile
         buildContext: .
